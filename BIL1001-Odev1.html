@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <title> Berk Lögün 2018280034 </title>
+<body>
+<h1>Berk Lögün 2018280034 </h1>
+<h2>BBG Güz Dönemi 1. Ödev </h2>
+<label for="id1">Metin kutusu 1</label>
+<input type='text' onkeypress="return kontrol(event)" id='id1' />
+<br>
+<label for="id2">Metin kutusu 2</label>
+<input type='text' onkeypress="return kontrol(event)" id='id2' />
+<br><br>
+<button type="button" id='topla' >Topla</button>
+<br><br>
+<label for="id3">Metin kutusu 3</label>
+<input type='text' id='id3' />
+<br>
+<label for="id4">Metin kutusu 4</label>
+<input type='text' id='id4' />
+<br><br>
+<button type="button" id='birlesim' >Yapıştır</button>
+<script>
+// onkeypress ile basılan tuşun numara olup olmadığını kontrol eden fonksiyon
+function kontrol(event) {
+    var charCode = (event.which) ? event.which : event.keyCode;
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}
+var toplm=document.getElementById("topla")
+var birlesim=document.getElementById("birlesim")
+//toplama işleminin değişkenleri
+toplm.onclick=function(){
+var a=Number(document.getElementById("id1").value);
+var b=Number(document.getElementById("id2").value);
+var toplam = a+b
+alert("Toplam: " + toplam)
+}
+//birleşim işleminin değişkenleri
+birlesim.onclick=function(){
+  var c=String(document.getElementById("id3").value);
+  var d=String(document.getElementById("id4").value);
+  var birlesim= c + d
+  alert("Sonuç: " + birlesim)
+}
+
+
+
+</script>
+</body>
+</html>
