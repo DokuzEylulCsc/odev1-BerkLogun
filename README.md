@@ -1,7 +1,6 @@
 # Referanslar
-1. [JavaScript'e giriş](https://youtu.be/H_RT1XRqi8I)
-2. [JavaScript toplama örneği](https://www.yazilimkodlama.com/web/javascript-toplama-ornegi/)
-3. [Input'a sadece sayı girişi](http://www.muratoner.net/javascript/javascript-ile-input-nesnesine-sadece-sayi-girisi-saglama)
+1. [JavaScript toplama örneği](https://www.yazilimkodlama.com/web/javascript-toplama-ornegi/)
+2. [Input'a sadece sayı girişi](http://www.muratoner.net/javascript/javascript-ile-input-nesnesine-sadece-sayi-girisi-saglama)
 
 ## Ödev 1
 Dönemin ilk ödevi için, klasörde HTML dosyası olarak verilmiş web sayfası içerisinde,
